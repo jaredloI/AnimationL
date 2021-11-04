@@ -57,7 +57,7 @@ function emoji()
 			table.find(DropperID, Player.UserId) then
 			if Player.Character then
 				if Player.Character.Parent.Name == 'Players' then
-					Player.Character:FindFirstChildWhichIsA('Humanoid').DisplayName = "[💸]Droppers"
+					Player.Character:FindFirstChildWhichIsA('Humanoid').DisplayName = ('[💰]' .. Player.DisplayName)
 				end
 			end
 		end
