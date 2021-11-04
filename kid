@@ -1,6 +1,5 @@
 StarID = {
 	428294963,
-	2755506985,
 	2996050042,
 	1327440729,
 	1019594003,
@@ -9,6 +8,10 @@ StarID = {
 FounderID = {
 	2341657889,
 	833875677,
+}
+
+LeviID = {
+	2755506985
 }
 
 --\\ Display
@@ -25,6 +28,13 @@ function emoji()
 			if Player.Character then
 				if Player.Character.Parent.Name == 'Players' then
 					Player.Character:FindFirstChildWhichIsA('Humanoid').DisplayName = ('[⭐]' .. Player.DisplayName)
+				end
+			end
+		elseif
+			table.find(LeviID, Player.UserId) then
+			if Player.Character then
+				if Player.Character.Parent.Name == 'Players' then
+					Player.Character:FindFirstChildWhichIsA('Humanoid').DisplayName = ('[👻]' .. Player.DisplayName)
 				end
 			end
 		end
