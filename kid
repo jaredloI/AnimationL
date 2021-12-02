@@ -11,6 +11,12 @@ FounderID = {
 	833875677,
 }
 
+DreyID = {
+	2525207094,
+	3089437768,
+	2550199241,
+}
+
 --\\ Display
 function emoji()
 	for _,Player in pairs(game:GetService('Players'):GetChildren()) do
