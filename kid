@@ -13,9 +13,11 @@ FounderID = {
 
 JacobID = {
 	94965608,
+}
 	
 DropperID =  {
 	1327440729,
+}
 
 --\\ Display
 function emoji()
