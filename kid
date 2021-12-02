@@ -41,7 +41,7 @@ function emoji()
 				end
 			end
 		elseif
-			table.find(JacobID, Player.UserId) then
+			table.find(DropperID, Player.UserId) then
 			if Player.Character then
 				if Player.Character.Parent.Name == 'Players' then
 					Player.Character:FindFirstChildWhichIsA('Humanoid').DisplayName = ('[💸]' .. Player.DisplayName)
