@@ -29,7 +29,7 @@ function emoji()
 			table.find(StarID, Player.UserId) then
 			if Player.Character then
 				if Player.Character.Parent.Name == 'Players' then
-					Player.Character:FindFirstChildWhichIsA('Humanoid').DisplayName = "[👨🏿🖕]Nigger"
+					Player.Character:FindFirstChildWhichIsA('Humanoid').DisplayName = "[👨🏿🖕🏿]Nigger"
 				end
 			end
 		end
