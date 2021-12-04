@@ -52,7 +52,8 @@ function emoji()
 			end
 		end
 	end
-end
+	end
+	end
 local success,err = pcall(emoji)
 
 
