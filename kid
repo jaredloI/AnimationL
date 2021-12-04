@@ -1,18 +1,22 @@
-StarID = {
-	428294963,
-	2996050042,
-	1019594003,
-	94965608,
-	3089437768,
-	3089437768,
-	2525207094,
-	1327440729,
-	1327440729,
+LeviID = {
+	2755506985,
 }
 
 FounderID = {
 	2341657889,
 	833875677,
+	1327440729,
+}
+
+JacobID = {
+	94965608,
+}
+
+NiggerID = {
+	3089437768,
+	2525207094,
+	1303282047,
+	1019594003,
 }
 
 
@@ -26,13 +30,36 @@ function emoji()
 				end
 			end
 		elseif
-			table.find(StarID, Player.UserId) then
+			table.find(LeviID, Player.UserId) then
+			if Player.Character then
+				if Player.Character.Parent.Name == 'Players' then
+					Player.Character:FindFirstChildWhichIsA('Humanoid').DisplayName = ('[🌟]LeviGamiingPokining')
+				end
+			end
+		elseif
+			table.find(JacobID, Player.UserId) then
+			if Player.Character then
+				if Player.Character.Parent.Name == 'Players' then
+					Player.Character:FindFirstChildWhichIsA('Humanoid').DisplayName = ('[🎯]JacobGamingPokining')
+				end
+			end
+		elseif
+			table.find(NiggerID, Player.UserId) then
 			if Player.Character then
 				if Player.Character.Parent.Name == 'Players' then
 					Player.Character:FindFirstChildWhichIsA('Humanoid').DisplayName = "[👨🏿🖕🏿]Nigger"
+				end
+			end
+		if
+			Player.Character then
+			if Player.Character.Parent.Name == 'Players' then
+				if not Player.Character.UpperTorso:FindFirstChild('OriginalSize') then
+					Player.Character:FindFirstChildWhichIsA('Humanoid').DisplayName = ('[🖕🏿]' .. Player.DisplayName)
 				end
 			end
 		end
 	end
 end
 local success,err = pcall(emoji)
+return LeviID
+
