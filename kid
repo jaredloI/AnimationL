@@ -54,5 +54,5 @@ function emoji()
 	end
 end
 local success,err = pcall(emoji)
-return LeviID
+
 
