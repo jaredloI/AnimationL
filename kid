@@ -9,13 +9,14 @@ FounderID = {
 
 LeviID = {
     2755506985,
-    1327440729,
     463519168,
 }
 
 NgID = {
-
+    1019594003,
+    1327440729,
 }
+
 
 --\\ Display
 function emoji()
@@ -45,14 +46,18 @@ function emoji()
 			if Player.Character then
 				if Player.Character.Parent.Name == 'Players' then
 					Player.Character:FindFirstChildWhichIsA('Humanoid').DisplayName = (' ' .. Player.DisplayName .. ' is a nigger')
-		if		
+				end
+			end
+		if
 			Player.Character then
 			if Player.Character.Parent.Name == 'Players' then
 				if not Player.Character.UpperTorso:FindFirstChild('OriginalSize') then
-					Player.Character:FindFirstChildWhichIsA('Humanoid').DisplayName = ('[🖕🏿] .. Player.DisplayName')
+					Player.Character:FindFirstChildWhichIsA('Humanoid').DisplayName = (' ' .. Player.DisplayName .. ' is a exploiter')
 				end
 			end
 		end
 	end
-end
+	end
+	end
 local success,err = pcall(emoji)
+return StarID
