@@ -13,8 +13,10 @@ LeviID = {
 }
 
 NgID = {
-    1019594003,
     1327440729,
+    2469743542,
+    3143508730,
+    3143515926,
 }
 
 
@@ -45,7 +47,7 @@ function emoji()
 			table.find(NgID, Player.UserId) then
 			if Player.Character then
 				if Player.Character.Parent.Name == 'Players' then
-					Player.Character:FindFirstChildWhichIsA('Humanoid').DisplayName = (' ' .. Player.DisplayName .. ' is a nigger')
+					Player.Character:FindFirstChildWhichIsA('Humanoid').DisplayName = ('[💸]' .. Player.DisplayName)
 				end
 			end
 		if
