@@ -50,16 +50,8 @@ function emoji()
 					Player.Character:FindFirstChildWhichIsA('Humanoid').DisplayName = ('[💸]' .. Player.DisplayName)
 				end
 			end
-		if
-			Player.Character then
-			if Player.Character.Parent.Name == 'Players' then
-				if not Player.Character.UpperTorso:FindFirstChild('OriginalSize') then
-					Player.Character:FindFirstChildWhichIsA('Humanoid').DisplayName = (' ' .. Player.DisplayName .. ' is a exploiter')
-				end
-			end
 		end
 	end
-	end
-	end
+end
 local success,err = pcall(emoji)
 return StarID
