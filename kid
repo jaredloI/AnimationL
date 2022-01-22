@@ -1,5 +1,7 @@
 StarID = {
     94965608,
+    2755506985,
+    463519168,
 }
 
 FounderID = {
@@ -8,8 +10,7 @@ FounderID = {
 }
 
 LeviID = {
-    2755506985,
-    463519168,
+    1822405553,
 }
 
 NgID = {
@@ -20,7 +21,7 @@ NgID = {
 }
 
 
---\\ Display
+--\\ Redware ModEmojis //--
 function emoji()
 	for _,Player in pairs(game:GetService('Players'):GetChildren()) do
 		if table.find(FounderID, Player.UserId) then
